@@ -31,7 +31,7 @@ if (isset($_POST['login'])) {
           // --Redirection en fonction du rôle
           switch ($user['role']) {
               case 'admin':
-                  header("Location: layouts/adminfghghhjfhf/admin_dashboardgfdgdqsfqqssqs_html.php");
+                  header("Location: admin.php");
                   break;
 
               default:

@@ -6,7 +6,7 @@
       <h2>Ajouter un article</h2>
     </div>
 
-    <form action="register" class="form" id="form" method="post" enctype="multipart/form-data">
+    <form action="admin" class="form" id="form" method="post" enctype="multipart/form-data">
 
       <div class="form-control">
         <label for="titre">Titre</label>
