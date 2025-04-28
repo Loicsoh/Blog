@@ -10,10 +10,12 @@ $pageTitle ="S'inscrire dans le Blog";
 ob_start();
 
 // 3-inclure le layout de la page register
-require_once 'layouts/adminfghghhjfhf/admin_dashboardgfdgdqsfqqssqs_html.php';
+require_once 'layouts/articles/register_html.php';
 
 //4-recuperation du contenu du tampon de la page register
 $pageContent = ob_get_clean();
 
 //5-Inclure le layout de la page de sortie
 require_once 'layouts/layout_html.php';
+
+?>
