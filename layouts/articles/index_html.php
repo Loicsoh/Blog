@@ -10,8 +10,6 @@
       <p><?= htmlspecialchars($article['introduction'] ?? ''); ?></p>
       <a href="article.php?id=<?= htmlspecialchars($article['id'] ?? ''); ?>">Voir plus</a>
     <?php endforeach; ?>
-  <?php else : ?>
-    <p>Aucun article disponible pour le moment.</p>
   <?php endif; ?>
 </div>
 <hr>

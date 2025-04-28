@@ -61,6 +61,7 @@ if (isset($_POST['register'])) {
 
  
 }
+
 require_once 'database/database.php';
 
 // 1-On affiche le titre
